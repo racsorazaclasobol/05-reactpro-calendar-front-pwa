@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Calendario PWA",
+  "name": "Una Aplicación de Calendario con PWA",
   "icons": [
     {
       "src": "favicon.ico",

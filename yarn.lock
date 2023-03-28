@@ -4210,6 +4210,7 @@ __metadata:
     react: ^17.0.2
     react-big-calendar: ^0.38.0
     react-datetime-picker: ^3.0.2
+    react-detect-offline: ^2.4.5
     react-dom: ^17.0.2
     react-modal: ^3.11.2
     react-redux: ^7.2.0
@@ -4218,18 +4219,6 @@ __metadata:
     redux: ^4.0.5
     redux-thunk: ^2.3.0
     sweetalert2: ^11.1.9
-    workbox-background-sync: ^6.5.4
-    workbox-broadcast-update: ^6.5.4
-    workbox-cacheable-response: ^6.5.4
-    workbox-core: ^6.5.4
-    workbox-expiration: ^6.5.4
-    workbox-google-analytics: ^6.5.4
-    workbox-navigation-preload: ^6.5.4
-    workbox-precaching: ^6.5.4
-    workbox-range-requests: ^6.5.4
-    workbox-routing: ^6.5.4
-    workbox-strategies: ^6.5.4
-    workbox-streams: ^6.5.4
   languageName: unknown
   linkType: soft
 
@@ -10859,6 +10848,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-detect-offline@npm:^2.4.5":
+  version: 2.4.5
+  resolution: "react-detect-offline@npm:2.4.5"
+  checksum: 5ebaaee765bcb58f9d057ae64d1cc8bf332b9f69d809d523317f82e2330cbc69048fb5afc87ea385b00a04328471db0b6b72bcccf248caa607740c22d9422c03
+  languageName: node
+  linkType: hard
+
 "react-dev-utils@npm:^12.0.1":
   version: 12.0.1
   resolution: "react-dev-utils@npm:12.0.1"
@@ -13280,7 +13276,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-background-sync@npm:6.5.4, workbox-background-sync@npm:^6.5.4":
+"workbox-background-sync@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-background-sync@npm:6.5.4"
   dependencies:
@@ -13290,7 +13286,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-broadcast-update@npm:6.5.4, workbox-broadcast-update@npm:^6.5.4":
+"workbox-broadcast-update@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-broadcast-update@npm:6.5.4"
   dependencies:
@@ -13344,7 +13340,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-cacheable-response@npm:6.5.4, workbox-cacheable-response@npm:^6.5.4":
+"workbox-cacheable-response@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-cacheable-response@npm:6.5.4"
   dependencies:
@@ -13353,14 +13349,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-core@npm:6.5.4, workbox-core@npm:^6.5.4":
+"workbox-core@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-core@npm:6.5.4"
   checksum: d973cc6c1c5fdbde7f6642632384c2e0de48f08228eb234db2c97a18a7e5422b483005767e7b447ea774abc0772dfc1edef2ef2b5df174df4d40ae61d4c49719
   languageName: node
   linkType: hard
 
-"workbox-expiration@npm:6.5.4, workbox-expiration@npm:^6.5.4":
+"workbox-expiration@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-expiration@npm:6.5.4"
   dependencies:
@@ -13370,7 +13366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-google-analytics@npm:6.5.4, workbox-google-analytics@npm:^6.5.4":
+"workbox-google-analytics@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-google-analytics@npm:6.5.4"
   dependencies:
@@ -13382,7 +13378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-navigation-preload@npm:6.5.4, workbox-navigation-preload@npm:^6.5.4":
+"workbox-navigation-preload@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-navigation-preload@npm:6.5.4"
   dependencies:
@@ -13391,7 +13387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-precaching@npm:6.5.4, workbox-precaching@npm:^6.5.4":
+"workbox-precaching@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-precaching@npm:6.5.4"
   dependencies:
@@ -13402,7 +13398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-range-requests@npm:6.5.4, workbox-range-requests@npm:^6.5.4":
+"workbox-range-requests@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-range-requests@npm:6.5.4"
   dependencies:
@@ -13425,7 +13421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-routing@npm:6.5.4, workbox-routing@npm:^6.5.4":
+"workbox-routing@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-routing@npm:6.5.4"
   dependencies:
@@ -13434,7 +13430,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-strategies@npm:6.5.4, workbox-strategies@npm:^6.5.4":
+"workbox-strategies@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-strategies@npm:6.5.4"
   dependencies:
@@ -13443,7 +13439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-streams@npm:6.5.4, workbox-streams@npm:^6.5.4":
+"workbox-streams@npm:6.5.4":
   version: 6.5.4
   resolution: "workbox-streams@npm:6.5.4"
   dependencies:
